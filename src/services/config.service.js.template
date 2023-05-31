@@ -1,0 +1,7 @@
+angular.module('app').factory('ConfigService', [
+  function () {
+    return {
+      apiBase: '${API_BASE}',
+    };
+  },
+]);
