@@ -1,8 +1,7 @@
-angular.module('app').factory('ConfigService', [function() {
-
-    var service = {};
-
-    service.apiBase = 'http://localhost:8001/';
-
-    return service;
-}]);
+angular.module('app').factory('ConfigService', [
+  function () {
+    return {
+      apiBase: 'https://quiz-api-th.eu-west-2.elasticbeanstalk.com/',
+    };
+  },
+]);
